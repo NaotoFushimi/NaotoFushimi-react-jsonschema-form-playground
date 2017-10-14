@@ -1,40 +1,6 @@
-# frontend-base-20170103
+# react-json-schema-form-playground
 
-Boilerplate for modern frontend environment (typescript + babel + modern CSS)
+## 目的
+HTMLのバリデーション周りがブラウザ依存強すぎるので  
+JSON Schemaにフォーム周りも寄せたい。
 
-## Core Modules
-* babel
-* webpack3
-* typescript
-* mocha + power-assert
-* cssnext
-
-## How to use
-
-```
-git clone https://github.com/NaotoFushimi/frontend-base-20170103.git <Your Project Name>
-```
-
-init
-```bash
-npm run initial
-```
-
-
-watch & build
-```
-yarn run watch
-
-```
-
-production build (minify , remove comment , delete console)
-```
-yarn run production
-
-```
-
-
-unit test
-```
-yarn test
-```

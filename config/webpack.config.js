@@ -125,8 +125,8 @@ module.exports = {
     externals: isTest ? [nodeExternals()] : {
         //CDNで読み込むやつはここで除外しとくと良い
 
-        //'react': 'React',
-        //'react-dom': 'ReactDOM',
+        'react': 'React',
+        'react-dom': 'ReactDOM',
         ////'react-router': 'ReactRouter',
         //'react-addons-transition-group': 'React.addons.TransitionGroup',
         //'react-addons-pure-render-mixin': 'React.addons.PureRenderMixin',
