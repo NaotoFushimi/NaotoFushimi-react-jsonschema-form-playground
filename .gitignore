@@ -1,0 +1,8 @@
+*.swp
+*.swo
+node_modules
+.idea
+.git
+test/modules/*
+test/build
+*.log
